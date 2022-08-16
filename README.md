@@ -1,3 +1,7 @@
+# Live on Git Hub pages click the link below
+
+http://harishayat07.github.io/netflix-clone-react.js/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

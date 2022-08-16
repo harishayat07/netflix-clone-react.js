@@ -1,16 +1,16 @@
 import './App.scss';
-import Header from './Components/Header/Header'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from './Components/Home/Home'
+import Header from './Components/Header/Header';
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Home from './Components/Home/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
